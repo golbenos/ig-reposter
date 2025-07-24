@@ -9,8 +9,8 @@ jobs:
   run-reposter:
     runs-on: ubuntu-latest
     env:
-      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      ACCESS_TOKEN: ${{EAANZCBW5j6L8BPMoF1Fb7mVnzVp8QkA2j3pZAvKDikB1Y5rlubiKopZCXtZCc0ZBJoAIJq0XQem5S2DmQbOZAcThMGD8mGWbKjZAKHouvZBmSGNNTlsAnPTS2qMJjwy9ZCoWOWdzl7JuIugNrHyUEmCV2OM2pKqyW6cX1gD8VW03pECZBUh9Ikp8me4WuN3fND6hbH }}
+      IG_USER_ID: ${{17841412345678901 }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
